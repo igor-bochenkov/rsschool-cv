@@ -1,4 +1,3 @@
-***
 # Igor Bochenkov
 
 ## Contacts
