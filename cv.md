@@ -16,11 +16,28 @@ I am a beginner frontend developer. I want to learn new things and develop profe
 * HTML
 * CSS3 / SASS(SCSS)
 * JavaScript (basics)
-* FlexBox/GRID
+* FlexBox / GRID
 * Git / GitHub
 * BEM
 * Gulp
 * PhotoShop / Figma / Zeplin / Sketch
+
+## Code Example
+**Instructions:** _Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers._
+```javascript
+function evenOrOdd(number) {
+  if (number % 2 == 0) {
+      return number = 'Even';
+      } else {
+        return number = 'Odd';
+      }
+}
+```
+
+## My Projects
+* [FreeBusiness](https://igor-bochenkov.github.io/layout---FreeBusiness/) (Landing page)
+* [CrowdMe](https://igor-bochenkov.github.io/layout---CrowdMe/) (Landing page)
+* [Cuda](https://igor-bochenkov.github.io/layout---Cuda/) (Landing page with animation on scroll)
 
 ## Education
 * **University:** "Yaroslav-the-Wise" Novgorod state university, Automobile Vehicles (incomplete higher education)
@@ -33,3 +50,5 @@ I am a beginner frontend developer. I want to learn new things and develop profe
 ## Languages
 * **Russian** - native speaker
 * **English** - _Pre-intermediat_ **A2** (I'm taking a [course](https://www.youtube.com/@user-xw2tj4lx5f) on YouTube)
+
+***
