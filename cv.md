@@ -38,3 +38,16 @@ function evenOrOdd(number) {
 * [CrowdMe](https://igor-bochenkov.github.io/layout---CrowdMe/) (Landing page)
 * [Cuda](https://igor-bochenkov.github.io/layout---Cuda/) (Landing page with animation on scroll)
 
+## Education
+* **University:** "Yaroslav-the-Wise" Novgorod state university, Automobile Vehicles (incomplete higher education)
+* **Courses:**
+  * [WebReference](https://webref.ru/course)
+  * [BasicWeb](https://basicweb.ru/html/vvedenie.php)
+  * [FreelancerLifeStyle](https://www.youtube.com/@FreelancerLifeStyle)
+  * [learn.javascript.ru](https://learn.javascript.ru/) (in the process of studying)
+
+## Languages
+* **Russian** - native speaker
+* **English** - _Pre-intermediat_ **A2** (I'm taking a [course](https://www.youtube.com/@user-xw2tj4lx5f) on YouTube)
+
+***
