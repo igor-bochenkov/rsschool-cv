@@ -65,9 +65,13 @@ html {
 body {
 	/* font-family: Montserrat; */
 	font-family: Lato;
-	font-size: 37px;
+	font-size: 18px;
+	color: #2d2d2d;
 	font-weight: 400;
 	background-color: #D7D7D7;
+}
+body p {
+	line-height: 1.4;
 }
 .wrapper {
 	width: 100%;
@@ -76,10 +80,223 @@ body {
 	/* display: flex;
 	flex-direction: column; */
 }
-
-[class*="__container"] {
+/*--------------------------------------*/
+/*-----------PAGE---------------------------*/
+.cv {
 	max-width: 1200px;
 	margin: 0 auto;
-	padding: 0px 40px;
-	box-sizing: content-box;
+	background-color: #fff;
+	border: 1px solid #2d2f42;
+	box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+	display: flex;
+}
+.cv__sidebar {
+	flex: 0 0 400px;
+	background-color: #202026;
+	display: flex;
+	flex-direction: column;
+}
+
+.sidebar-cv__general {
+	padding-left: 60px;
+}
+.cv__main {
+
+}
+[class*="__container"] {
+	margin: 0 auto;
+	padding: 0 60px;
+}
+/*-----------TITLES---------------------------*/
+.title {
+	font-family: Montserrat;
+	font-size: 28px;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	border-bottom: 2px solid #2d2d2d;
+	padding-bottom: 18px;
+	margin-bottom: 30px;
+}
+.title--side {
+	border-bottom: 2px solid #fecb00;
+	color: #fff;
+}
+/*-----------PHOTO---------------------------*/
+.sidebar-cv__photo {
+	margin-bottom: 60px;
+}
+.sidebar-cv__photo img{
+	max-width: 100%;
+}
+
+/*-----------EDUCATION-----------------------*/
+.sidebar-cv__education {
+}
+.education {
+}
+.education__title {
+}
+.title-side {
+}
+.education__univ {
+}
+.education__courses {
+}
+/*-----------SKILLS---------------------------*/
+.sidebar-cv__skills {
+}
+
+.skills {
+}
+.skills__title {
+}
+.skills__items {
+}
+.skills__item {
+}
+.item-html {
+}
+.sidebar-cv__contacts {
+}
+.contacts {
+}
+/* ================================================================================ */
+/*-----------HEADER---------------------------*/
+.main-cv__navigation {
+	background-color: #2d2f42;
+	padding: 20px 0px;
+}
+.navigation {
+}
+.navigation__container {
+}
+.navigation__list {
+	display: flex;
+	justify-content: space-between;
+}
+.navigation__list li a{
+	display: block;
+	font-family: Montserrat;
+	text-transform: uppercase;
+	font-weight: 500;
+	color: #fff;
+	letter-spacing: 2px;
+	transition: all 0.3s ease 0s;
+}
+.navigation__list li a:hover {
+	color: #fecb00;
+}
+.navigation__link {
+	position: relative;
+}
+.navigation__link span {
+	position: relative;
+	display: block;
+}
+.navigation__link span:after {
+	content: '';
+	position: absolute;
+	height: 1px;
+	background-color: #fecb00;
+	bottom: -3px;
+	left: 50%;
+	width: 0;
+}
+.navigation__link:hover span:after {
+	left: 0;
+	width: 100%;
+	transition: all 0.3s ease 0s;
+}
+/*-----------NAME---------------------------*/
+.main-cv__name {
+	background-color: #fecb00;
+	font-family: Montserrat;
+	text-transform: uppercase;
+	padding: 60px 0px;
+	margin-bottom: 50px;
+}
+.main-cv__name h1 {
+	font-size: 50px;
+	font-weight: 600;
+	letter-spacing: 10px;
+	margin-bottom: 20px;
+}
+.main-cv__name h3 {
+	font-size: 20px;
+	letter-spacing: 6px;
+}
+.name {
+}
+.name__container {
+}
+/*-----------ABOUT---------------------------*/
+.main-cv__about {
+	margin-bottom: 50px;
+}
+.about {
+}
+.about__container {
+}
+
+/*-----------CODE---------------------------*/
+.main-cv__code {
+}
+.code {
+}
+
+/*-----------PROJECTS---------------------------*/
+.main-cv__projects {
+	margin-bottom: 30px;
+}
+.projects {
+}
+.projects__container {
+}
+.projects__row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.projects__card {
+	display: block;
+	width: 220px;
+	cursor: pointer;
+	text-align: center;
+	font-family: Montserrat;
+	text-transform: uppercase;
+	color: #202026;
+	border: 2px solid #fecb00;
+	border-radius: 6px;
+	padding: 4px;
+	transition: all 0.3s ease 0s;
+	margin-bottom: 10px;
+}
+.projects__card:hover {
+	opacity: 0.8;
+}
+.card-project {
+}
+.card-project__img {
+	margin-bottom: 10px;
+	border: 1px solid #fecb00;
+}
+.card-project__img img{
+	max-width: 100%;
+}
+.card-project__name {
+	font-size: 20px;
+	font-weight: 500;
+	margin-bottom: 8px;
+}
+.card-project__discib {
+	font-size: 16px;
+}
+
+
+/*-----------FOOTER---------------------------*/
+
+.main-cv__footer {
+}
+.footer {
 }
