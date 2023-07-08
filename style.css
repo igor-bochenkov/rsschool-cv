@@ -59,3 +59,27 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: inherit; }
 
 /*--------------------------------------*/
+html {
+	scroll-behavior: smooth;
+}
+body {
+	/* font-family: Montserrat; */
+	font-family: Lato;
+	font-size: 37px;
+	font-weight: 400;
+	background-color: #D7D7D7;
+}
+.wrapper {
+	width: 100%;
+	min-height: 100%;
+	overflow: hidden;
+	/* display: flex;
+	flex-direction: column; */
+}
+
+[class*="__container"] {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0px 40px;
+	box-sizing: content-box;
+}
