@@ -4,11 +4,201 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>rsschool-cv</title>
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@400;500;600;700&display=swap"
+		rel="stylesheet">
+	<title>CV</title>
 </head>
 
 <body>
-
+	<div class="wrapper">
+		<div class="cv">
+			<aside class="cv__sidebar sidebar-cv">
+				<div class="sidebar-cv__photo">
+					<img src="img/photo.jpg" alt="ava">
+				</div>
+				<div class="sidebar-cv__general">
+					<div class="sidebar-cv__education education">
+						<h2 class="education__title title title--side">education</h2>
+						<div class="education__info">
+							<h4>University:</h4>
+							<p>"Yaroslav-the-Wise" Novgorod state university, Automobile Vehicles</p>
+							<h4>Courses:</h4>
+							<ul class="education__items">
+								<li><a href="https://webref.ru/course" class="education__item" target="_blank">WebReference</a>
+								</li>
+								<li><a href="https://basicweb.ru/html/vvedenie.php" class="education__item"
+										target="_blank">BasicWeb</a></li>
+								<li><a href="https://www.youtube.com/@FreelancerLifeStyle" class="education__item"
+										target="_blank">FreelancerLifeStyle</a></li>
+								<li><a href="https://learn.javascript.ru/" class="education__item"
+										target="_blank">LearnJavaScript<span>
+											[in the process]</span></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="sidebar-cv__skills skills">
+						<h2 class="skills__title title title--side">skills</h2>
+						<ul class="skills__items">
+							<li>HTML</li>
+							<li>CSS3 <span>/</span> SASS(SCSS)</li>
+							<li>JavaScript</li>
+							<li>FlexBox <span>/</span> GRID</li>
+							<li>Git <span>/</span> GitHub</li>
+							<li>BEM</li>
+							<li>Gulp</li>
+							<li>Figma <span>/</span> PhotoShop</li>
+						</ul>
+					</div>
+					<div class="sidebar-cv__lang lang">
+						<h2 class="lang__title title title--side">Languages</h2>
+						<p><span>Russian</span> - native speaker</p>
+						<p><span>English</span> - A2 (Pre-intermediat)</p>
+					</div>
+				</div>
+				<div class="sidebar-cv__contacts contacts" id="contacts">
+					<div class="contacts__item">
+						<div class="contacts__title">Email</div>
+						<div class="contacts__info"><a href="mailto:igor.bochenkoff@gmail.com">igor.bochenkoff@gmail.com</a>
+						</div>
+					</div>
+					<div class="contacts__item">
+						<div class="contacts__title">GitHub</div>
+						<div class="contacts__info"><a href="https://github.com/igor-bochenkov"
+								target="_blank">https://github.com/igor-bochenkov</a>
+						</div>
+					</div>
+					<div class="contacts__item">
+						<div class="contacts__title">Telegram</div>
+						<div class="contacts__info"><a href="https://t.me/igor_bochenkov" target="_blank">igor_bochenkov</a>
+						</div>
+					</div>
+					<div class="contacts__item">
+						<div class="contacts__title">Location</div>
+						<div class="contacts__info">Velikiy Novgorod, Russia</div>
+					</div>
+				</div>
+			</aside>
+			<div class="cv__page page-cv">
+				<header class="page-cv__navigation navigation">
+					<div class="navigation__container">
+						<ul class="navigation__list">
+							<li>
+								<a href="#about" class="navigation__link"><span>About</span></a>
+							</li>
+							<li>
+								<a href="#projects" class="navigation__link"><span>Projects</span></a>
+							</li>
+							<li>
+								<a href="#code" class="navigation__link"><span>Code</span></a>
+							</li>
+							<li>
+								<a href="#contacts" class="navigation__link"><span>Contacts</span></a>
+							</li>
+						</ul>
+					</div>
+				</header>
+				<main class="page-cv__main main-cv">
+					<section class="main-cv__name name">
+						<div class="name__container">
+							<h1>Igor Bochenkov</h1>
+							<h3>Novice Front-end Developer</h3>
+						</div>
+					</section>
+					<section class="main-cv__about about" id="about">
+						<div class="about__container">
+							<h2 class="about__title title">About Me</h2>
+							<p>I am a beginner frontend developer. I want to learn new things and develop professional
+								qualities.
+								I always approach work responsibly and am able to make decisions. I am able to work in a team.
+							</p>
+						</div>
+					</section>
+					<section class="main-cv__projects projects" id="projects">
+						<div class="projects__container">
+							<h2 class="projects__title title">My projects</h2>
+							<div class="projects__row">
+								<div class="projects__column">
+									<a href="https://igor-bochenkov.github.io/layout---FreeBusiness/"
+										class="projects__card card-project">
+										<div class="card-project__img">
+											<img src="img/free.jpg" alt="page">
+										</div>
+										<h3 class="card-project__name">FreeBusiness</h3>
+										<div class="card-project__discib">Landing page</div>
+									</a>
+								</div>
+								<div class="projects__column">
+									<a href="https://igor-bochenkov.github.io/layout---CrowdMe/"
+										class="projects__card card-project">
+										<div class="card-project__img">
+											<img src="img/crowdme.png" alt="page">
+										</div>
+										<h3 class="card-project__name">CrowdMe</h3>
+										<div class="card-project__discib">Landing page</div>
+									</a>
+								</div>
+								<div class="projects__column">
+									<a href="https://igor-bochenkov.github.io/layout---Cuda/"
+										class="projects__card card-project">
+										<div class="card-project__img">
+											<img src="img/cuda.jpg" alt="page">
+										</div>
+										<h3 class="card-project__name">Cuda</h3>
+										<div class="card-project__discib">page with animation</div>
+									</a>
+								</div>
+								<div class="projects__column">
+									<a href="https://igor-bochenkov.github.io/cssBayan/cssBayan/index.html"
+										class="projects__card card-project">
+										<div class="card-project__img">
+											<img src="img/bayan.png" alt="page">
+										</div>
+										<h3 class="card-project__name">css-Bayan</h3>
+										<div class="card-project__discib">Accordion-menu on pure CSS</div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section class="main-cv__code code" id="code">
+						<div class="code__container">
+							<h2 class="code__title title">Code Example</h2>
+							<pre class="code__area">
+								<code class="code__expl">
+	function evenOrOdd(number) {
+		if (number % 2 == 0) {
+			return number = 'Even';
+		} else {
+			return number = 'Odd';
+		}
+	}
+								</code>
+							</pre>
+						</div>
+					</section>
+				</main>
+				<footer class="page-cv__footer footer">
+					<div class="footer__container">
+						<div class="footer__items">
+							<a href="https://github.com/igor-bochenkov" class="footer__item footer__item--github footer-logo"
+								target="_blank">
+								<img src="img/github-svg.svg" alt="github">
+							</a>
+							<a href="https://rs.school/js/" class="footer__item footer__item--rss footer-logo" target="_blank">
+								<img src="img/rs_school_js.svg" alt="rsschool">
+							</a>
+							<div class="footer__item footer__item--data">2023</div>
+						</div>
+					</div>
+				</footer>
+			</div>
+		</div>
+	</div>
 </body>
 
 </html>
