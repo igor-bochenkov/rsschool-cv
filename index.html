@@ -24,116 +24,178 @@
 				<div class="sidebar-cv__general">
 					<div class="sidebar-cv__education education">
 						<h2 class="education__title title title--side">education</h2>
-						<div class="education__univ">
-							<p>University:</p>
-							<p>"Yaroslav-the-Wise" Novgorod state university, Automobile Vehicles (incomplete higher education)
+						<div class="education__info">
+							<h4>University:</h4>
+							<p>"Yaroslav-the-Wise" Novgorod state university, Automobile Vehicles <span>[incomplete higher
+									education]</span>
 							</p>
+							<h4>Courses:</h4>
+							<ul class="education__items">
+								<li><a href="https://webref.ru/course" class="education__item">WebReference</a></li>
+								<li><a href="https://basicweb.ru/html/vvedenie.php" class="education__item">BasicWeb</a></li>
+								<li><a href="https://www.youtube.com/@FreelancerLifeStyle"
+										class="education__item">FreelancerLifeStyle</a></li>
+								<li><a href="https://learn.javascript.ru/" class="education__item">learn.javascript.ru<span>
+											[in
+											the process]</span></a></li>
+							</ul>
 						</div>
-						<ul class="education__items">Courses:
-							<li class="education__item">WebReference</li>
-							<li class="education__item">BasicWeb</li>
-							<li class="education__item">FreelancerLifeStyle</li>
-							<li class="education__item">learn.javascript.ru (in the process of studying)</li>
-						</ul>
 					</div>
 					<div class="sidebar-cv__skills skills">
 						<h2 class="skills__title title title--side">skills</h2>
 						<ul class="skills__items">
 							<li class="skills__item item-html">HTML</li>
-							<li class="skills__item item-html">HTML</li>
-							<li class="skills__item item-html">HTML</li>
-							<li class="skills__item item-html">HTML</li>
-							<li class="skills__item item-html">HTML</li>
-							<li class="skills__item item-html">HTML</li>
-							<li class="skills__item item-html">HTML</li>
+							<li class="skills__item item-html">CSS3 <span>/</span> SASS(SCSS)</li>
+							<li class="skills__item item-html">JavaScript</li>
+							<li class="skills__item item-html">FlexBox <span>/</span> GRID</li>
+							<li class="skills__item item-html">Git <span>/</span> GitHub</li>
+							<li class="skills__item item-html">BEM</li>
+							<li class="skills__item item-html">Figma <span>/</span> PhotoShop <span>/</span> Zeplin</li>
 						</ul>
 					</div>
 					<div class="sidebar-cv__lang lang">
 						<h2 class="lang__title title title--side">Languages</h2>
-						<ul class="lang__items">
-							<li class="lang__item">Russian</li>
-							<li class="lang__item">English</li>
-						</ul>
+						<p><span>Russian</span> - native speaker</p>
+						<p><span>English</span> - A2 (B1 in
+							the process)</p>
 					</div>
 				</div>
-				<div class="sidebar-cv__contacts contacts"></div>
+				<div class="sidebar-cv__contacts contacts" id="contacts">
+					<div class="contacts__item">
+						<div class="contacts__title">Email</div>
+						<div class="contacts__info"><a href="mailto:igor.bochenkoff@gmail.com">igor.bochenkoff@gmail.com</a>
+						</div>
+					</div>
+					<div class="contacts__item">
+						<div class="contacts__title">GitHub</div>
+						<div class="contacts__info"><a href="https://github.com/igor-bochenkov"
+								target="_blank">https://github.com/igor-bochenkov</a>
+						</div>
+					</div>
+					<div class="contacts__item">
+						<div class="contacts__title">Telegram</div>
+						<div class="contacts__info"><a href="https://t.me/igor_bochenkov" target="_blank">igor_bochenkov</a>
+						</div>
+					</div>
+					<div class="contacts__item">
+						<div class="contacts__title">Location</div>
+						<div class="contacts__info">Velikiy Novgorod, Russia</div>
+					</div>
+				</div>
 			</aside>
-			<main class="cv__main main-cv">
-				<header class="main-cv__navigation navigation">
+			<div class="cv__page page-cv">
+				<header class="page-cv__navigation navigation">
 					<div class="navigation__container">
 						<ul class="navigation__list">
 							<li>
-								<a href="#" class="navigation__link"><span>About</span></a>
+								<a href="#about" class="navigation__link"><span>About</span></a>
 							</li>
 							<li>
-								<a href="#" class="navigation__link"><span>Code</span></a>
+								<a href="#code" class="navigation__link"><span>Code</span></a>
 							</li>
 							<li>
-								<a href="#" class="navigation__link"><span>Projects</span></a>
+								<a href="#projects" class="navigation__link"><span>Projects</span></a>
 							</li>
 							<li>
-								<a href="#" class="navigation__link"><span>Contacts</span></a>
+								<a href="#contacts" class="navigation__link"><span>Contacts</span></a>
 							</li>
 						</ul>
 					</div>
 				</header>
-				<section class="main-cv__name name">
-					<div class="name__container">
-						<h1>Igor Bochenkov</h1>
-						<h3>Future Front-end Developer</h3>
-					</div>
-				</section>
-				<section class="main-cv__about about">
-					<div class="about__container">
-						<h2 class="about__title title">About Me</h2>
-						<p>I am a beginner frontend developer. I want to learn new things and develop professional qualities.
-							I always approach work responsibly and am able to make decisions. I am able to work in a team.</p>
-					</div>
-				</section>
-				<section class="main-cv__code code">
-					<!-- <pre>
-						<code>
-							function evenOrOdd(number) {
-								if (number % 2 == 0) {
-									 return number = 'Even';
-									 } else {
-										return number = 'Odd';
-									 }
-							 }
-						</code>
-					</pre> -->
-				</section>
-				<section class="main-cv__projects projects">
-					<div class="projects__container">
-						<h2 class="projects__title title">projects</h2>
-						<div class="projects__row">
-							<a href="https://igor-bochenkov.github.io/layout---FreeBusiness/"
-								class="projects__card card-project">
-								<div class="card-project__img">
-									<img src="img/free.jpg" alt="page">
+				<main class="page-cv__main main-cv">
+					<section class="main-cv__name name">
+						<div class="name__container">
+							<h1>Igor Bochenkov</h1>
+							<h3>Novice Front-end Developer</h3>
+						</div>
+					</section>
+					<section class="main-cv__about about" id="about">
+						<div class="about__container">
+							<h2 class="about__title title">About Me</h2>
+							<p>I am a beginner frontend developer. I want to learn new things and develop professional
+								qualities.
+								I always approach work responsibly and am able to make decisions. I am able to work in a team.
+							</p>
+						</div>
+					</section>
+					<section class="main-cv__code code" id="code">
+						<div class="code__container">
+							<h2 class="code__title title">Code Example</h2>
+							<pre class="code__area">
+								<code class="code__expl">
+	function evenOrOdd(number) {
+		if (number % 2 == 0) {
+			return number = 'Even';
+		} else {
+			return number = 'Odd';
+		}
+	}
+								</code>
+							</pre>
+						</div>
+					</section>
+					<section class="main-cv__projects projects" id="projects">
+						<div class="projects__container">
+							<h2 class="projects__title title">Projects</h2>
+							<div class="projects__row">
+								<div class="projects__column">
+									<a href="https://igor-bochenkov.github.io/layout---FreeBusiness/"
+										class="projects__card card-project">
+										<div class="card-project__img">
+											<img src="img/free.jpg" alt="page">
+										</div>
+										<h3 class="card-project__name">FreeBusiness</h3>
+										<div class="card-project__discib">Landing page</div>
+									</a>
 								</div>
-								<h3 class="card-project__name">FreeBusiness</h3>
-								<div class="card-project__discib">Landing page</div>
-							</a>
-							<a href="https://igor-bochenkov.github.io/layout---CrowdMe/" class="projects__card card-project">
-								<div class="card-project__img">
-									<img src="img/crowdme.jpg" alt="page">
+								<div class="projects__column">
+									<a href="https://igor-bochenkov.github.io/layout---CrowdMe/"
+										class="projects__card card-project">
+										<div class="card-project__img">
+											<img src="img/crowdme.png" alt="page">
+										</div>
+										<h3 class="card-project__name">CrowdMe</h3>
+										<div class="card-project__discib">Landing page</div>
+									</a>
 								</div>
-								<h3 class="card-project__name">CrowdMe</h3>
-								<div class="card-project__discib">Landing page</div>
-							</a>
-							<a href="https://igor-bochenkov.github.io/layout---Cuda/" class="projects__card card-project">
-								<div class="card-project__img">
-									<img src="img/cuda.jpg" alt="page">
+								<div class="projects__column">
+									<a href="https://igor-bochenkov.github.io/layout---Cuda/"
+										class="projects__card card-project">
+										<div class="card-project__img">
+											<img src="img/cuda.jpg" alt="page">
+										</div>
+										<h3 class="card-project__name">Cuda</h3>
+										<div class="card-project__discib">page with animation</div>
+									</a>
 								</div>
-								<h3 class="card-project__name">Cuda</h3>
-								<div class="card-project__discib">page with animation</div>
+								<div class="projects__column">
+									<a href="https://igor-bochenkov.github.io/cssBayan/cssBayan/index.html"
+										class="projects__card card-project">
+										<div class="card-project__img">
+											<img src="img/bayan.png" alt="page">
+										</div>
+										<h3 class="card-project__name">css-Bayan</h3>
+										<div class="card-project__discib">Accordion-menu on pure CSS</div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</section>
+				</main>
+				<footer class="page-cv__footer footer">
+					<div class="footer__container">
+						<div class="footer__items">
+							<a href="https://github.com/igor-bochenkov" class="footer__item footer__item--github footer-logo">
+								<img src="img/github-svg.svg" alt="github">
 							</a>
+							<a href="https://rs.school/js/" class="footer__item footer__item--rss footer-logo">
+								<img src="img/rs_school_js.svg" alt="rsschool">
+							</a>
+							<div class="footer__item footer__item--data">2023</div>
 						</div>
 					</div>
-				</section>
-				<footer class="main-cv__footer footer"></footer>
-			</main>
+				</footer>
+			</div>
 		</div>
 	</div>
 </body>
