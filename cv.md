@@ -48,6 +48,6 @@ function evenOrOdd(number) {
 
 ## Languages
 * **Russian** - native speaker
-* **English** - _Pre-intermediat_ **A2** (I'm taking a [course](https://www.youtube.com/@user-xw2tj4lx5f) on YouTube)
+* **English** - _Pre-intermediate_ **A2** (I'm taking a [course](https://www.youtube.com/@user-xw2tj4lx5f) on YouTube)
 
 ***
