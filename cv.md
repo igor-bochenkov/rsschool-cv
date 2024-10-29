@@ -25,9 +25,9 @@ I am a beginner frontend developer. I want to learn new things and develop profe
 ```javascript
 function isPrime(num) {
   for(let i = 2, a = Math.sqrt(num); i <= a; i++) {
-			if(num % i === 0) return false;
-	  }
-	  return num > 1;
+    if(num % i === 0) return false;
+  }
+  return num > 1;
 }
 ```
 
