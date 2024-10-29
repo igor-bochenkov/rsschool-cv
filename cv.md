@@ -22,14 +22,12 @@ I am a beginner frontend developer. I want to learn new things and develop profe
 * PhotoShop / Figma / Zeplin / Sketch
 
 ## Code Example
-**Instructions:** _Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers._
 ```javascript
-function evenOrOdd(number) {
-  if (number % 2 == 0) {
-      return number = 'Even';
-      } else {
-        return number = 'Odd';
-      }
+function isPrime(num) {
+  for(let i = 2, a = Math.sqrt(num); i <= a; i++) {
+			if(num % i === 0) return false;
+	  }
+	  return num > 1;
 }
 ```
 
